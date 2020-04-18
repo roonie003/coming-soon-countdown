@@ -1,0 +1,125 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+background: url(/img/school-doodles-clipart-preview-1-.jpg) center center/cover no-repeat;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: top;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2rem;
+  /*overlay*/
+  position: auto;
+  top: 54px;
+  left: 0;
+  right: 0;
+  bottom: o;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#logo {
+    text-align: center;
+    padding-top: 20px;
+    opacity:0.9 ;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+#intro p{
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.8rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+#counter .countdown {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#icons .fa {
+    text-decoration: none;
+    text-align: center;
+}
+
+#icon ul li {
+    float: left;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px 15px;
+    position: relative;
+    bottom: 0;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-twitter:hover {
+    color: #6caddd;
+    top: 5px;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    bottom: 5px;
+}
+
+.fa-instagram:hover {
+    color: #517fa6;
+    bottom: 5px;
+}
+
+.fa-google-plus-g:hover {
+    color: #ea4355;
+    bottom: 5px;
+}
+
+#sign-up{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px 10px;
+}
+
+.btn {
+align-items: center;
+background: rgba(161, 186, 226, 0.5) ;
+border-radius: 0.5;
+margin: 5px 10px;
+color: #ffffff ;
+font-size: 15px;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background: rgba(26, 216, 36, 0.5) ;
+}
+
+#footer {
+    color: #ffffff;
+    font-weight: bold;
+}
+
