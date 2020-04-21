@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-#icon ul li {
+#icon .list-inline {
     float: left;
     color: #ffffff;
     padding: 15px;
